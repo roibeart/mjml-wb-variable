@@ -1,0 +1,45 @@
+<mjml>
+    <mj-head>
+    </mj-head>
+    <mj-body>
+
+        <mj-container>
+
+            <!-- variables -->
+
+            <wb-variable
+                name="GA_TRACK"
+                value="utm_source=newsletter&utm_medium=dem" />
+
+            <wb-variable
+                name="BG_COLOR"
+                value="#24292E" />
+
+            <wb-variable
+                name="TEXT_COLOR"
+                value="#FFFFFF" />
+
+            <wb-variable
+                name="BUTTON_COLOR"
+                value="#28a745" />
+
+            <wb-variable
+                name="PRODUCT_NAME"
+                value="Github" />
+
+            <!-- /variables -->
+
+            <mj-section background-color="#BG_COLOR#">
+                <mj-column>
+                    <mj-text align="center" color="#TEXT_COLOR#">
+                        #PRODUCT_NAME# is a development platform inspired by the way you work.
+                    </mj-text>
+                    <mj-button href="https://github.com?#GA_TRACK#" background-color="#BUTTON_COLOR#">
+                        GO
+                    </mj-button>
+                </mj-column>
+            </mj-section>
+
+        </mj-container>
+    </mj-body>
+</mjml>
