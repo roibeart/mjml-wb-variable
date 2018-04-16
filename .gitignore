@@ -1,6 +1,5 @@
 .DS_Store
 *.log
-lib/*
 index.html
 node_modules
 !.gitkeep
