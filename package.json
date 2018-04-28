@@ -1,7 +1,7 @@
 {
-  "name": "MJML variables",
+  "name": "wb-variable",
   "version": "1.0.1",
-  "description": "A component to use variables inside mjml e-mails.",
+  "description": "A component that allows to use variables inside mjml e-mails.",
   "main": "index.js",
   "scripts": {
     "start": "gulp watch",
