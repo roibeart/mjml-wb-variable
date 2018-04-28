@@ -2,6 +2,10 @@
 
 Use variables inside your [mjml](https://mjml.io/) e-mails.
 
+> ⚠️ This component doesn't work with MJML 4.<br/>
+> To use it, install version 3 of MJML using the command<br/>
+> `npm init -y && npm install mjml@^3.1.1`
+
 ## Installation
 
 Copy the `lib` folder and the `.mjmlconfig` file contained in this repository and paste them inside your mjml project directory.
